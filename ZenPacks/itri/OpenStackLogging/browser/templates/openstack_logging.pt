@@ -1,0 +1,10 @@
+<tal:block metal:use-macro="here/page_macros/old-new-no-tabs">
+
+   <tal:block metal:fill-slot="title">OPENSTACK TOPOLOGY & LOGGING</tal:block>
+
+   <h1>OPENSTACK TOPOLOGY & LOGGING</h1>
+
+   <tal:block metal:fill-slot="center_panel">
+   </tal:block>
+
+</tal:block>
