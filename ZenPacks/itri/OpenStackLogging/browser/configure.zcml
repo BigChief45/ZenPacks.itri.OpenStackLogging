@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <configure xmlns="http://namespaces.zope.org/browser">
-
+   
+   <!-- ADD OPENSTACK LINK TO PRIMARY NAVIGATION -->
    <viewlet
       name="OPENSTACK"
       url="/zport/dmd/openstack_logging"
@@ -9,3 +10,13 @@
       class="Products.ZenUI3.navigation.menuitem.PrimaryNavigationMenuItem"
       permission="zope2.Public"
       />
+
+   <!-- CREATE THE OPENSTACK LOGGING & TOPOLOGY PAGE -->
+   <page
+      for="*"
+      name="pdcmapi"
+      permission="zenoss.View"
+      template="templates/openstack_logging.pt"
+   />
+
+</configure>
