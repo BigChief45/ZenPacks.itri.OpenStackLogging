@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configure xmlns="http://namespaces.zope.org/browser">
+
+   <viewlet
+      name="OPENSTACK"
+      url="/zport/dmd/openstack_logging"
+      weight="15"
+      manager="Products.ZenUI3.navigation.interfaces.IPrimaryNavigationMenu"
+      class="Products.ZenUI3.navigation.menuitem.PrimaryNavigationMenuItem"
+      permission="zope2.Public"
+      />
