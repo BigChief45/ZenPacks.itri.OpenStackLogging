@@ -1,0 +1,13 @@
+{
+  "nodes":[
+		{"name":"Nova","icon":"nova.png"},
+		{"name":"Cinder","icon":"cinder.png"},
+		{"name":"Neutron","icon":"neutron.png"},
+		{"name":"Ceph","icon":"ceph.png"}
+	],
+	"links":[
+		{"source": 1, "target": 3},
+		{"source": 2, "target": 1},
+		{"source": 2, "target": 0}
+	]
+}

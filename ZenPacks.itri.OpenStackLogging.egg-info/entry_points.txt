@@ -1,0 +1,3 @@
+[zenoss.zenpacks]
+ZenPacks.itri.OpenStackLogging = ZenPacks.itri.OpenStackLogging
+

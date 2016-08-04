@@ -9,8 +9,8 @@
 
    <!-- Register the Device Grid modification script -->
    <viewlet
-       name="js-dashboard-jujuservices-portlet"
-       paths="/++resource++openstack_logging/js/app.js"
+       name="jujuopenstack"
+       paths="/++resource++openstack_logging/js/juju_services.js"
        weight="10"
        manager="Products.ZenUI3.browser.interfaces.IJavaScriptSrcManager"
        class="Products.ZenUI3.browser.javascript.JavaScriptSrcBundleViewlet"
